@@ -123,6 +123,6 @@ class Game:
         sprites["spaceship"] = pygame.transform.scale(sprites["spaceship"], (48, 48))
 
         return sprites
-
+print('hello')
 g = Game()
 g.run()
